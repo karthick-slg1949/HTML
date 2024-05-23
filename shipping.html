@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Address</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image:url(/r.jpg);
+            background-size: cover;
+        }
+    </style>
+    <h2>Shipping Address</h2><hr>
+    <form>
+    Phone Number: <input type="text"><br><br>
+    Company: <input type="text"><br><br>
+    Country: <select>
+        <option>India</option>
+        <option>Australia</option>
+        <option>America</option>
+        <option>Singapore</option>
+        <option>China</option>
+    </select><br><br>
+    Address Finder: <input type="text"><br><br>
+    Street Address: <input type="text"><br><br>
+    <input type="text"><br><br>
+    Suburb: <input type="text"><br><br>
+    Zip/Postal Code: <input type="text"><br><br>
+    <input type="checkbox">Save in address book <br><hr>
+    <button id="cancel">Cancel</button>
+    <button onclick="shhowAleart()">Save Address</button>
+    <script>
+        function shhowAleart(){
+            alert("Your Order Confirmed")
+        }
+    </script>
+</form>
+</body> 
+</html>

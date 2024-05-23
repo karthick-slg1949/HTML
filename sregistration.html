@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsor Registration</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image:url(/r.jpg);
+            background-size: cover;
+            color: rgb(250, 8, 28);
+            
+        }
+        h2{
+            color: rgb(243, 7, 7);
+        text-align: center;     
+       }
+       #toggleButton{
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+       }
+       #toggleButton.on{
+        background-color: green;
+       }
+    </style>
+    <h2>Sponsor Registration</h2>
+    <form>
+        prefix:<input type="text"><br><br>
+        Name:<input type="text" placeholder="Firstname">            <input type="text" placeholder="Lastname"><br><br>
+        Preferred Pronounce:<input type="text"><br><br>
+        Email: <input type="email" placeholder="sample@example.com"><br><br>
+        Work Phone: <input type="text"><br><br>
+        Cell Phone: <input type="text"><br><br>
+        Job Title: <input type="text"><br><br>
+        Company: <input type="text"><br><br>
+        Full Business Address: <input type="text"><br><br>
+        Company Website: <input type="url"><br><br>
+        Company Description: <br><br> 
+        <textarea></textarea><br><br>
+        Company Facebook Page: <input type="text"><br><br>
+        Company Twitter Handle: <input type="text"><br><br>
+        Company Linkedin Handle: <input type="text"><br><br>
+        Sponsorship Level: 
+        <input type="radio" name="Gender">Gold
+        <input type="radio" name="Gender">Diamond
+        <input type="radio" name="Gender">Platinum<br><br>
+        Additional Guests(name,email): <input type="text"><br><br>
+        <button id="toggleButton">Off</button>
+        <script src="script.js"></script>
+
+    </form>
+</body>
+</html>

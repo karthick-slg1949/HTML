@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(/r.jpg);
+            background-size: cover;
+        }
+        #add{
+            color: red;
+        }
+        iframe{
+            padding-left: 500px;
+            
+        }
+    </style>
+    <h2>Use My Current Location
+<form>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="10 Digit Mobile Number"><br>
+    <input type="text" placeholder="Pin Code">
+    <input type="text" placeholder="Locality"><br><br>
+    <textarea placeholder="Address (Area And Street)"></textarea><br>
+    <input type="text" placeholder="City/District/Town">
+    <select>
+        <option>-Select State-</option>
+        <option>Tamilnadu</option>
+        <option>Kerala</option>
+        <option>Karnadaka</option>
+        <option>Andhra</option>
+    </select><br>
+    <input type="text" placeholder="Landmark(optional)">
+    <input type="text" placeholder="Alternate Phone Optional"><br>
+    <label id="add">Address Type</label>
+     <input type="radio" name="abc">Home
+    <input type="radio" name="abc">Work <br>
+    <button onclick="showAleart()">Save</button>
+    <script>
+        function showAleart(){
+            alert("File Is saved")
+        }
+    </script>
+    <button>Cancel</button>
+    <br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.14906234053!2d77.69865787428371!3d12.962311887352223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11e6982ac5df%3A0xb52fcb3ad37e0ec3!2sPro%20Stack%20Academy!5e0!3m2!1sen!2sin!4v1716465493459!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</form>
+    </body>
+</html>

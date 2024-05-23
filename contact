@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+</head>
+<body>
+    <style>
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blue;
+        
+        }
+        img{
+            padding-left: 550px;
+        }
+    </style>
+    <hr>
+    <h1>Welcome To KAS website</h1>
+        <hr>
+        <h2>Home Page</h2>
+    <img src="/karthick.png">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque asperiores doloribus quo sapiente soluta delectus repellendus! Cupiditate iure atque exercitationem quia consequuntur similique officiis magnam cumque laborum. Temporibus unde consequatur similique molestiae quasi, provident ipsum ipsam distinctio explicabo cumque vitae praesentium nesciunt quas reprehenderit nam omnis harum amet illo veritatis?</p>
+    <hr>
+    <div>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/service">Service</a>
+        </nav>
+    </div>
+</body>
+</html>
