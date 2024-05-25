@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Verifying Order</h1>
+    <style>
+        div{
+            width: 500px;
+            height: 450px;
+            border-radius: 5px;
+            border-style: solid;
+            background-color: aqua;
+            padding-left: 50px;
+            margin-left: 350px;
+            margin-top: 25px;
+            padding-top: 10px;
+            padding-bottom: unset;
+        }
+        body{
+            background-image: url(/r.jpg);
+            background-size: cover;
+        }
+        .hide{
+            padding-left: 100px;
+            margin-top: 100px;
+            text-align: center;
+        }
+    </style>
+    <div>
+        <form>
+            <h2>Shipping Address</h2>
+        Phone Number*<input type="text" size="35px"><br><br>
+        Company:<input type="text" size="41px"><br><br>
+        Country*<select>  
+            <option>India</option>
+            <option>Australia</option>
+            <option>America</option>
+            <option>Singapore</option>
+            <option>China</option>
+         </select><br><br>
+        Address Finder:<input type="text" size="36px"><br><br>
+        Street Address*<input type="text" size="36px"><br><br>
+       <label>       </label>
+        <input type="text" size="35px"><br><br>
+        Suburb*<input type="text" size="43px"><br><br>
+        Zip/Postal Code*<input type="text" size="35px"><br><br>
+        <input type="checkbox">Save in address book <br><br>
+        <button id="cancel">Cancel</button>
+        <button onclick="shhowAleart()" style="background-color: dimgray;">Save Address</button>
+        <script>
+            function shhowAleart(){
+                alert("Your Order Confirmed")
+            }
+        </script>
+    </form>
+    </div>
+</body>
+</html>
